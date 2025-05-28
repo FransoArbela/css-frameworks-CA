@@ -20,12 +20,18 @@
           >
         </div>
         <div class="hidden md:flex items-center space-x-4 gap-6">
-          <div id="nav-links" class="flex">
+            <div id="nav-links" class="flex items-center">
             <a
-              class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-700 dark:hover:text-blue-400 dark:text-gray-200 transition duration-300"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-700 dark:hover:text-blue-400 dark:text-gray-200 transition duration-300 flex items-center"
               href="/profile"
-              >Profile</a
             >
+            <img
+            src="https://randomuser.me/api/portraits/men/32.jpg"
+            alt="Profile picture"
+            class="w-8 h-8 rounded-full mr-2"
+            />
+              Profile
+            </a>
             <a
               class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-700 dark:hover:text-blue-400 dark:text-gray-200 transition duration-300"
               href="/feed"
@@ -36,7 +42,7 @@
               href="/"
               >Logout</a
             >
-          </div>
+            </div>
           <button id="theme-toggler" class="theme-toggle-button">
             <i class="fa-solid fa-moon fa-xl" style="color: #525252"></i>
           </button>
@@ -80,7 +86,7 @@
     </header>
     <main class="container mx-auto">
       <section
-        class="flex flex-col items-center gap-8 py-10"
+        class="flex flex-col items-center gap-8 py-10 1xs:w-"
       >
         <!-- Profile Image and Info -->
         <div class="flex flex-col items-center  w-full md:w-1/3">

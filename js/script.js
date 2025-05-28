@@ -15,6 +15,7 @@ burgerBtn.addEventListener("click", () => {
 
 themeToggler.forEach((toggler) => {
   toggler.addEventListener("click", () => {
+
     document.documentElement.classList.toggle("dark");
     toggler.innerHTML = document.documentElement.classList.contains("dark")
       ? `<i class="fa-solid fa-sun fa-xl"  style="color: #FFD43B;"></i>`
