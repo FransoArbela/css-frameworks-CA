@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/553a084866.js"
       crossorigin="anonymous"
@@ -11,7 +11,9 @@
     <script src="/js/script.js" defer></script>
     <title>Feed</title>
   </head>
-  <body class="bg-white dark:bg-gray-900 text-black dark:text-white">
+  <body
+    class="bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen grid grid-rows-[auto,1fr,auto]"
+  >
     <header class="shadow-lg dark:bg-gray-700 min-h-14 flex">
       <nav class="container flex justify-between items-center mx-auto px-4">
         <div class="">
@@ -441,5 +443,12 @@
         </article>
       </section>
     </main>
+    <footer>
+      <div class="text-center py-4 bg-gray-200 dark:bg-gray-800">
+        <p class="text-sm text-gray-600 dark:text-gray-400">
+          &copy; 2023 My Website. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
