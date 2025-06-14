@@ -1,4 +1,4 @@
-# Project Title
+CSS framework project
 
 A simple responsive website built as part of the CSS Frameworks course at Noroff. The project focuses on using **Tailwind CSS** for styling and creating a clean, accessible layout across multiple pages.
 
@@ -21,6 +21,7 @@ Ai generated content has been used throughout the site to focus on layout and st
 
 - [Tailwind CSS](https://tailwindcss.com/)
 - HTML5
+- JavaScript
 
 ### Installation
 
@@ -29,7 +30,6 @@ Ai generated content has been used throughout the site to focus on layout and st
    git clone https://github.com/FransoArbela/css-frameworks-CA.git
 ```
 2. Navigate to the project directory:
-
 ```bash
    cd css-frameworks-CA
 ```
@@ -53,11 +53,13 @@ npm run dev
 ```
 
 ## Usage
-* You can explore the following pages:
+You can explore the following pages:
 
-* Home — Main landing page with introductory content.
+* Profile - Made up authorized user profile, with profile images, follow button, follower counts and a grid of posts that has been posted.
 
-* Login — A demo login page using native HTML validation (no backend logic).
+* Feed - Feed page showing posts from other made up users with comments and images.
+
+* Login - A demo login page using native HTML validation (no backend logic).
 
 ## Author
 
