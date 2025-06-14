@@ -40,17 +40,13 @@ Ai generated content has been used throughout the site to focus on layout and st
    npm install
 ```
 
-### Running the project
-
-```bash
-npm run dev
-```
-
 4. Start the dev server:
 
 ```bash
    npm run dev
 ```
+
+5. Use Live-server to see the project, or use [this](https://css-frameworks-samal.netlify.app/) link to see the project hosted.
 
 ## Usage
 You can explore the following pages:
