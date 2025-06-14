@@ -6,10 +6,10 @@ A simple responsive website built as part of the CSS Frameworks course at Noroff
 
 - [Description](#description)
 - [Built With](#built-with)
-- [Getting Started](#getting-started)
+- [Installation](#Installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- [Author](#Author)
+
 
 ## Description
 
