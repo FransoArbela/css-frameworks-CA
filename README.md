@@ -27,7 +27,7 @@ Ai generated content has been used throughout the site to focus on layout and st
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/FransoArbela/css-frameworks-CA.git
+   git clone https://github.com/Samal-Ibrahim/css-frameworks-CA.git
 ```
 2. Navigate to the project directory:
 ```bash

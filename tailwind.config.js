@@ -20,11 +20,6 @@ module.exports = {
         body: ["Inter", "sans-serif"], // Custom font for body text
       },
       colors: {
-        brand: {
-          light: "#3AB0FF", // Light shade of brand colour
-          DEFAULT: "#1E90FF", // Default brand colour
-          dark: "#00509E", // Dark shade of brand colour
-        },
         accent: {
           light: "#FCD34D", // Light accent colour (yellow)
           DEFAULT: "#FBBF24", // Default accent colour
