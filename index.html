@@ -8,10 +8,12 @@
       src="https://kit.fontawesome.com/553a084866.js"
       crossorigin="anonymous"
     ></script>
-    <script src="/js/script.js" defer></script>
+    <script type="module" src="/js/script.js"></script>
     <title>Authentication</title>
   </head>
-  <body class="bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen grid grid-rows-[auto,1fr,auto]">
+  <body
+    class="bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen grid grid-rows-[auto,1fr,auto]"
+  >
     <header class="shadow-lg dark:bg-gray-700 min-h-14 flex">
       <nav class="container flex justify-between items-center mx-auto px-4">
         <div class="">
@@ -27,7 +29,7 @@
               >Login</a
             >
           </div>
-          <button id="theme-toggler" class="theme-toggle-button">
+          <button class="theme-toggler theme-toggle-button">
             <i class="fa-solid fa-moon fa-xl" style="color: #525252"></i>
           </button>
         </div>
@@ -51,7 +53,7 @@
               >Login</a
             >
 
-            <button id="theme-toggler" class="theme-toggle-button mt-6">
+            <button class="theme-toggler theme-toggle-button mt-6">
               <i class="fa-solid fa-moon fa-xl" style="color: #dddddd"></i>
             </button>
           </div>
@@ -60,28 +62,34 @@
     </header>
     <main class="container mx-auto my-7">
       <div class="w-80 mx-auto mt-16 px-4 py-8">
-        <h1 class="text-2xl font-bold mb-4">Welcome to the Authentication Page</h1>
+        <h1 class="text-2xl font-bold mb-4">
+          Welcome to the Authentication Page
+        </h1>
         <p class="mb-6">Please log in to access your profile and feed.</p>
         <form action="/profile" class="space-y-4">
           <div>
-            <label for="email" class="block text-sm font-medium mb-2">Email</label>
+            <label for="email" class="block text-sm font-medium mb-2"
+              >Email</label
+            >
             <input
               type="text"
               id="email"
               name="email"
               required
-              class="w-full p-2 border border-gray-300 rounded"
+              class="w-full p-2 border border-gray-300 rounded dark:bg-gray-800 dark:text-gray-200"
               placeholder="Enter your email"
             />
           </div>
           <div>
-            <label for="password" class="block text-sm font-medium mb-2">Password</label>
+            <label for="password" class="block text-sm font-medium mb-2"
+              >Password</label
+            >
             <input
               type="password"
               id="password"
               name="password"
               required
-              class="w-full p-2 border border-gray-300 rounded"
+              class="w-full p-2 border border-gray-300 rounded dark:bg-gray-800 dark:text-gray-200"
               placeholder="Enter your password"
               minlength="8"
             />
